@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-container{
+    max-width: 100%;
+    height: 27vh;
+}
+.logo-container{
+    height: 75%;
+    width: 100%;
+    background-color: #023047;
+    display: flex;
+}
+
+.img-container {
+    width: 50vw;
+    height: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+.img-container > img {
+    width: auto;
+    height: 100%;
+}

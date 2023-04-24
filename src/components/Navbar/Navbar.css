@@ -1,0 +1,21 @@
+.nav-container{
+    background-color: #FFB703;
+    height: 25%;
+    width: 100%;
+    position: sticky;
+}
+
+.nav-bar{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar > li {
+    display: inline-block;
+    padding: 1px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+}

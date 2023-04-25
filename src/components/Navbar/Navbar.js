@@ -5,10 +5,10 @@ function Navbar() {
         <>
             <div class="nav-container">
                 <ul class="nav-bar">
-                    <li><a>Inicio</a></li>
-                    <li><a>Reservar vuelo</a></li>
-                    <li><a>Explorar</a></li>
-                    <li><a>Contacto</a></li>
+                    <li><a href="/Home">Inicio</a></li>
+                    <li><a href="/">Reservar vuelo</a></li>
+                    <li><a href="/">Explorar</a></li>
+                    <li><a href="/">Contacto</a></li>
                 </ul>
             </div>
         </>

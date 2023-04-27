@@ -2,11 +2,13 @@ const imagesHome = [
     {
         id: 0,
         name:"Vuelos",
-        url: "flights.jpg"
+        url: "flights.jpg",
+        page: "/Reserve"
     },{
         id: 1,
         name: "Destino",
-        url: "landscapes.jpg"
+        url: "landscapes.jpg",
+        page: "/Explore"
     },
 ];
 

@@ -15,13 +15,13 @@ function ImgList() {
 
 	const showImg = () => {
 		return (
-			imgs.filter(img => img.id == counter).map(img => {
+			imgs.filter(img => img.id === counter).map(img => {
 				return (
 					<div style={{
 						background: `url(/assets/img/${img.url})`,
 						backgroundSize: "cover"
 					}} className="img-flights" >
-						<a className="btn">{img.name}</a>
+						<a href={img.page} className="btn">{img.name}</a>
 					</div>
 				);
 			})
@@ -32,7 +32,7 @@ function ImgList() {
 		getImgs();
 		const interval = setInterval(() => {
 			setCounter(counter => (counter + 1)%2);
-		}, 1000);
+		}, 5000);
 		return () => clearInterval(interval);
 	}, []);
 

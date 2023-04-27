@@ -1,7 +1,9 @@
+import Form from "../../components/Form/Form";
+
 function Reserve() {
   return (
     <>
-        <p>Vuelo</p>
+        <Form/>
     </>
   );
 }

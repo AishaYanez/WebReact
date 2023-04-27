@@ -1,4 +1,4 @@
-import ImgList from '../../components/imgList/ImgList';
+import ImgList from '../../components/ImgList/ImgList';
 import './Home.css'
 function Home() {
 return (

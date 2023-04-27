@@ -6,9 +6,9 @@ function Navbar() {
             <div class="nav-container">
                 <ul class="nav-bar">
                     <li><a href="/Home">Inicio</a></li>
-                    <li><a href="/">Reservar vuelo</a></li>
-                    <li><a href="/">Explorar</a></li>
-                    <li><a href="/">Contacto</a></li>
+                    <li><a href="/Reserve">Reservar vuelo</a></li>
+                    <li><a href="/Explore">Explorar</a></li>
+                    <li><a href="/Contact">Contacto</a></li>
                 </ul>
             </div>
         </>

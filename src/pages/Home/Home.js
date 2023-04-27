@@ -3,8 +3,8 @@ import './Home.css'
 function Home() {
 return (
     <>
-        <div class="main-container">
-            <div class="img-container-home">
+        <div className="main-container">
+            <div className="img-container-home">
                 <ImgList/>
             </div>
         </div >

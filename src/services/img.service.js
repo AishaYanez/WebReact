@@ -1,10 +1,10 @@
 const imagesHome = [
     {
-        id: 1,
+        id: 0,
         name:"Vuelos",
         url: "flights.jpg"
     },{
-        id: 2,
+        id: 1,
         name: "Destino",
         url: "landscapes.jpg"
     },

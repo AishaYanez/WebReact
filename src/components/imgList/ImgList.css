@@ -13,4 +13,7 @@
     right: 10px;
     color: #FAFFF4;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }

@@ -4,7 +4,7 @@ import './ImgList.css'
 
 function ImgList() {
 	const [imgs, setImgs] = useState([]);
-	const [counter, setCounter] = useState(1);
+	const [counter, setCounter] = useState(0);
 	// BUSCADOR
 	// const [query, setQuery] = useState("");
 
@@ -21,7 +21,7 @@ function ImgList() {
 						background: `url(/assets/img/${img.url})`,
 						backgroundSize: "cover"
 					}} className="img-flights" >
-						<button className="btn" type="button">{img.name}</button>
+						<a className="btn">{img.name}</a>
 					</div>
 				);
 			})
@@ -30,11 +30,15 @@ function ImgList() {
 
 	useEffect(() => {
 		getImgs();
+		const interval = setInterval(() => {
+			setCounter(counter => (counter + 1)%2);
+		}, 1000);
+		return () => clearInterval(interval);
 	}, []);
 
 	return (
 		<>
-				{showImg()}
+			{showImg()}
 		</>
 	);
 }

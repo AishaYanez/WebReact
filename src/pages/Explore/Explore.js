@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+// import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import HotelService from "../../services/hotel.service";
 import './Explore.css'
 
@@ -22,10 +23,13 @@ function Explore() {
 							backgroundSize: "cover"
 						}} className="img-hotels" >
 							<div className="icon-container">
-							<ion-icon name="add-sharp"></ion-icon>
+								<ion-icon name="add-sharp"></ion-icon>
 							</div>
 						</div>
 						<div className="map-container">
+							<div className="map">
+								
+							</div>
 						</div>
 					</div>
 

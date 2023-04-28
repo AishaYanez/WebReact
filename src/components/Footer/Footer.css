@@ -12,11 +12,15 @@
         margin: 10px 0;
     }
 
-    .politcs-privaticy{
+    .copyright-container{
+      text-align: center;
+    }
+
+    .politcs-privaticy, .project-link{
         color: #fb8500;
     }
 
-    .politcs-privaticy:hover{
+    .politcs-privaticy:hover, .project-link:hover{
         color: #ffb703;
     }
   

@@ -9,7 +9,7 @@
     max-width: 50vw;
     min-width: 330px;
     height: 200px;
-    background-color: blue;
+    /* background-color: blue; */
     margin: 0 2vw 4vh 2vw;
     position: relative;
 }
@@ -23,12 +23,12 @@
     border-radius: 80px / 60px;
     transform: rotate(5deg);
     bottom: 0;
+    display: flex;
 }
 
 .img-hotels{
     height: 85%;
     width: 250px;
-    background-color: black;
     z-index: 50;
     position: absolute;
     right: 0;
@@ -42,4 +42,12 @@
     color: #FFF;
     background-color: rgba(0, 0, 0, 0.16);
     border-radius: 100px;
+}
+
+.map {
+    background-color: red;
+    border-radius: 80px / 60px;
+    width: 142px;
+    height: 104px;
+    margin: auto;
 }

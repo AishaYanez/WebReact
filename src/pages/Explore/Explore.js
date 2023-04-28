@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-// import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import HotelService from "../../services/hotel.service";
+import ShowMap from "../../components/ShowMap/ShowMap";
 import './Explore.css'
 
 function Explore() {
@@ -27,13 +27,9 @@ function Explore() {
 							</div>
 						</div>
 						<div className="map-container">
-							<div className="map">
-								
-							</div>
+								<ShowMap hotel={h}/>
 						</div>
 					</div>
-
-
 				);
 			})
 		);

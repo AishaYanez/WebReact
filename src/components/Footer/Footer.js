@@ -8,7 +8,7 @@ function Footer() {
                     <p>© 2023 Travels Todos los derechos reservados</p>
                 </div>
                 <div className="politics-container">
-                    <p><a href='/'>Política de Privacidad y Cookies</a> | <a href='/'>Condiciones de Venta</a></p>
+                    <p><a className='politcs-privaticy' href='/'>Política de Privacidad y Cookies</a> | <a className='politcs-privaticy' href='/'>Condiciones de Venta</a></p>
                 </div>
                 <div className="icons-container">
                     <ion-icon name="logo-facebook"></ion-icon>

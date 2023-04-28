@@ -1,15 +1,51 @@
-.footer-container{
-    width: 100%;
-    height: 75px;
+.footer-container {
     background-color: #023047;
+    color: #fff;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    position: absolute;
-    bottom: 0;
-}
+    padding: 20px;
+  }
+    .footer-container > * {
+        margin: 10px 0;
+    }
 
-.copyright-container > p {
-    color: white;
-    font-weight: bold;
-}
+    .politcs-privaticy{
+        color: #fb8500;
+    }
+
+    .politcs-privaticy:hover{
+        color: #ffb703;
+    }
+  
+  .icons-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .icons-container ion-icon {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .footer-container {
+      flex-direction: column;
+    }
+  
+    .politics-container, .icons-container {
+      flex: none;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .icons-container ion-icon {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+  }
+  

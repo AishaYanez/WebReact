@@ -1,0 +1,45 @@
+.hotels-container{
+    /* min-height: 66vh; */
+    height: auto;
+    margin: 2vh 0;
+    /* background-color: red; */
+}
+
+.hotels-information-container{
+    max-width: 50vw;
+    min-width: 330px;
+    height: 200px;
+    background-color: blue;
+    margin: 0 2vw 4vh 2vw;
+    position: relative;
+}
+
+.map-container {
+    width: 150px;
+    height: 110px;
+    background-color: #fb8500;
+    z-index: 100;
+    position: absolute;
+    border-radius: 80px / 60px;
+    transform: rotate(5deg);
+    bottom: 0;
+}
+
+.img-hotels{
+    height: 85%;
+    width: 250px;
+    background-color: black;
+    z-index: 50;
+    position: absolute;
+    right: 0;
+}
+
+.icon-container > ion-icon{
+    font-size: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.16);
+    border-radius: 100px;
+}

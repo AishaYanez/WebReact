@@ -1,4 +1,51 @@
 .form-FormComponent {
-    width: 50vw;
-    margin: auto;
-}
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-FormComponent label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #023047;
+  }
+  
+  .form-FormComponent input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-form:hover {
+    outline: none;
+    box-shadow: 0 0 5px #8ecae6;
+  }
+  
+  .btn-container{
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn-form {
+    width: 70px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #219ebc;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .form-FormComponent {
+      margin: 10px;
+      padding: 10px;
+    }
+  }

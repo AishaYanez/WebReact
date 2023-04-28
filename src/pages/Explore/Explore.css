@@ -14,18 +14,6 @@
     position: relative;
 }
 
-.map-container {
-    width: 150px;
-    height: 110px;
-    background-color: #fb8500;
-    z-index: 100;
-    position: absolute;
-    border-radius: 80px / 60px;
-    transform: rotate(5deg);
-    bottom: 0;
-    display: flex;
-}
-
 .img-hotels{
     height: 85%;
     width: 250px;
@@ -42,12 +30,17 @@
     color: #FFF;
     background-color: rgba(0, 0, 0, 0.16);
     border-radius: 100px;
+    cursor: pointer;
 }
 
-.map {
-    background-color: red;
+.map-container {
+    width: 150px;
+    height: 110px;
+    background-color: #fb8500;
+    z-index: 100;
+    position: absolute;
     border-radius: 80px / 60px;
-    width: 142px;
-    height: 104px;
-    margin: auto;
+    transform: rotate(5deg);
+    bottom: 0;
+    display: flex;
 }

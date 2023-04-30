@@ -17,10 +17,8 @@ function ImgList() {
 		return (
 			imgs.filter(img => img.id === counter).map(img => {
 				return (
-					<div style={{
-						background: `url(/assets/img/${img.url})`,
-						backgroundSize: "cover"
-					}} className="img-flights" >
+					<div className="imgList-container" >
+						<img className="imgs-imgList" src={`/assets/img/${img.url}`}/>
 						<a href={img.page} className="btn">{img.name}</a>
 					</div>
 				);

@@ -1,9 +1,13 @@
+.imgList-container {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
 
-.img-flights {
-    position: relative;
+.imgs-imgList {
     height: 100%;
-    max-width: 1200px;
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
   
@@ -12,8 +16,8 @@
     width: 142px;
     height: 33px;
     background: rgba(17, 102, 102, 0.85);
-    bottom: 10px;
-    right: 10px;
+    bottom: 15px;
+    right: 15px;
     color: #FAFFF4;
     font-weight: bold;
     display: flex;

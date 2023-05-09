@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1, h2, h3 {
+  color: #333;
+  margin-top: 30px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+	text-align: justify;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Estilos para pantalla pequeña */
+@media (max-width: 600px) {
+  .Privacity-container,
+  .Cookies-container {
+    margin: auto 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  ol {
+    margin-left: 15px;
+  }
+}
+
+/* Estilos para pantalla mediana */
+@media (min-width: 601px) and (max-width: 900px) {
+  .Privacity-container,
+  .Cookies-container {
+    margin: auto 50px;
+  }
+}
+
+/* Estilos para pantalla grande */
+@media (min-width: 901px) {
+  .Privacity-container,
+  .Cookies-container {
+    width: 60%;
+    margin: auto;
+  }
+}

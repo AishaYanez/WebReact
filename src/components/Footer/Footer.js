@@ -15,7 +15,7 @@ function Footer() {
 					</p>
 				</div>
 				<div className="politics-container">
-					<p><a className='politcs-privaticy' href='/'>Política de Privacidad y Cookies</a> | <a className='politcs-privaticy' href='/'>Condiciones de Venta</a></p>
+					<p><a className='politics-privaticy' href='/privacity-politics'>Política de Privacidad y Cookies</a> | <a className='politics-privaticy' href='/sales-politcs'>Condiciones de Venta</a></p>
 				</div>
 				<div className="icons-container">
 					<ion-icon name="logo-facebook"></ion-icon>

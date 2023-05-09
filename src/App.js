@@ -6,6 +6,8 @@ import Home from './pages/Home/Home';
 import Reserve from './pages/Reserve/Reserve';
 import Explore from './pages/Explore/Explore';
 import HotelInfo from './pages/HotelInfo/HotelInfo';
+import SalesPolitics from './pages/SalesPolitics/SalesPolitics';
+import PrivacityPolitics from './pages/PrivacityPolitics/PrivacityPolitics';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path='/home' element={<Home/>} />
           <Route path='/reserve' element={<Reserve/>} />
           <Route path='/explore' element={<Explore/>} />
+          <Route path='/privacity-politics' element={<PrivacityPolitics/>} />
+          <Route path='/sales-politics' element={<SalesPolitics/>} />
           <Route path='/explore/information' element={<HotelInfo/>} />
         </Routes>
       </BrowserRouter>

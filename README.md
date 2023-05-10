@@ -50,3 +50,4 @@ This project was created by me, Aisha Yanez de la Guardia. If you have any quest
 Tutorials  
 https://markdown.es/sintaxis-markdown/#:~:text=Para%20realizar%20un%20salto%20de,de%20pulsar%20una%20vez%20intro.  
 https://rpubs.com/Juve_Campos/ImagenesyMultimediaEnRmarkdown
+https://keepcoding.io/blog/hook-useparams-de-react-router/#:~:text=De%20manera%20particular%2C%20el%20hook,par%C3%A1metros%20din%C3%A1micos%20de%20la%20URL.

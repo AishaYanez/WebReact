@@ -20,10 +20,10 @@ function App() {
           <Route path='/home' element={<Home/>} />
           <Route path='/reserve' element={<Reserve/>} />
           <Route path='/explore' element={<Explore/>} />
+          <Route path='/explore/:id' element={<HotelInfo/>} />
           <Route path='/contact' element={<Contact/>} />
           <Route path='/privacity-politics' element={<PrivacityPolitics/>} />
           <Route path='/sales-politics' element={<SalesPolitics/>} />
-          <Route path='/explore/information' element={<HotelInfo/>} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -1,6 +1,9 @@
-function HotelInfo(){
+function HotelInfo(props){
+  const h = props.hotel;
   return (
-    <p>Hola info</p>
+    <>
+    <h2>{h.name}</h2>
+    </>
   );
 }
 

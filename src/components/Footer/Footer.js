@@ -14,8 +14,8 @@ function Footer() {
 						<a className='project-link' href='https://www.figma.com/file/jS9mI8IQAjCc2FBpdaNnYS/Untitled?node-id=1%3A2&t=cKiMAZNkQ4dEws8c-1'>Figma</a>
 					</p>
 				</div>
-				<div className="politics-container">
-					<p><a className='politics-privaticy' href='/privacity-politics'>Política de Privacidad y Cookies</a> | <a className='politics-privaticy' href='/sales-politcs'>Condiciones de Venta</a></p>
+				<div className='links-politics-container'>
+					<p><a className='politics-privaticy' href='/privacity-politics'>Política de Privacidad y Cookies</a> | <a className='politics-privaticy' href='/sales-politics'>Condiciones de Venta</a></p>
 				</div>
 				<div className="icons-container">
 					<ion-icon name="logo-facebook"></ion-icon>

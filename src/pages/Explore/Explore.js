@@ -23,7 +23,7 @@ function Explore() {
 							backgroundSize: "cover"
 						}} className="img-hotels" >
 							<div className="icon-container">
-								<a href="/explore/information"><ion-icon name="add-sharp"></ion-icon></a>
+								<a href={`/explore/${h.id}`}><ion-icon name="add-sharp"></ion-icon></a>
 							</div>
 						</div>
 						<div className="map-container">

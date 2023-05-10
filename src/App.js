@@ -6,6 +6,11 @@ import Home from './pages/Home/Home';
 import Reserve from './pages/Reserve/Reserve';
 import Explore from './pages/Explore/Explore';
 import HotelInfo from './pages/HotelInfo/HotelInfo';
+<<<<<<< HEAD
+=======
+import SalesPolitics from './pages/SalesPolitics/SalesPolitics';
+import PrivacityPolitics from './pages/PrivacityPolitics/PrivacityPolitics';
+>>>>>>> 60720fe482d3a7d9fad44213ba570643ab9dae47
 
 function App() {
   return (
@@ -17,6 +22,11 @@ function App() {
           <Route path='/home' element={<Home/>} />
           <Route path='/reserve' element={<Reserve/>} />
           <Route path='/explore' element={<Explore/>} />
+<<<<<<< HEAD
+=======
+          <Route path='/privacity-politics' element={<PrivacityPolitics/>} />
+          <Route path='/sales-politics' element={<SalesPolitics/>} />
+>>>>>>> 60720fe482d3a7d9fad44213ba570643ab9dae47
           <Route path='/explore/information' element={<HotelInfo/>} />
         </Routes>
       </BrowserRouter>

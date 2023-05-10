@@ -16,11 +16,19 @@
       text-align: center;
     }
 
+<<<<<<< HEAD
     .politcs-privaticy, .project-link{
         color: #fb8500;
     }
 
     .politcs-privaticy:hover, .project-link:hover{
+=======
+    .politics-privaticy, .project-link{
+        color: #fb8500;
+    }
+
+    .politics-privaticy:hover, .project-link:hover{
+>>>>>>> 60720fe482d3a7d9fad44213ba570643ab9dae47
         color: #ffb703;
     }
   

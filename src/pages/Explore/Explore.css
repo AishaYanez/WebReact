@@ -1,4 +1,5 @@
 .hotels-container{
+<<<<<<< HEAD
     /* min-height: 66vh; */
     height: auto;
     margin: 2vh 0;
@@ -20,6 +21,14 @@
     z-index: 50;
     position: absolute;
     right: 0;
+=======
+    height: auto;
+    margin: 2vh 0;
+}
+
+.hotels-information-container{
+    margin: 0 2vw 4vh 2vw;
+>>>>>>> 60720fe482d3a7d9fad44213ba570643ab9dae47
 }
 
 .icon-container > a > ion-icon{
@@ -45,6 +54,51 @@
     display: flex;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width:360) {
     
+=======
+@media screen and (max-width:360px) {
+    .map-container {
+       display: none;
+    }
+
+    .img-hotels{
+        height: 100%;
+        width: 100%;
+        /* position: relative; */
+    }
+
+    .hotels-information-container{
+        width: 90vw;
+        height: 200px;
+    }
+}
+
+
+@media screen and (min-width:360px) {
+    .hotels-information-container{
+        width: 350px;
+        height: 200px;
+        position: relative;
+        margin: auto;
+        margin-top: 3vh;    }
+    
+    .img-hotels{
+        height: 85%;
+        width: 250px;
+        z-index: 50;
+        right: 0;
+        position: absolute;
+    }
+}
+
+@media screen and (min-width:750px) {
+    .hotels-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        min-height: 50vh;
+    }
+>>>>>>> 60720fe482d3a7d9fad44213ba570643ab9dae47
 }

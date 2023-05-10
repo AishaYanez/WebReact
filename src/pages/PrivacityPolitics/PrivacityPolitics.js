@@ -4,7 +4,7 @@ function PrivacityPolitics() {
   return (
     <>
       <h1>Política de privacidad y cookies</h1>
-      <div className='Privacity-container'>
+      <div className='politics-container'>
         <h2>Política de privacidad</h2>
 
         <p>En la Empresa Travels, nos tomamos muy en serio la privacidad de nuestros clientes. A continuación, detallamos cómo recopilamos y utilizamos la información personal que nos proporciona al utilizar nuestros servicios.</p>
@@ -31,7 +31,7 @@ function PrivacityPolitics() {
 
         <p>Si tiene alguna pregunta o inquietud sobre nuestra política de privacidad, no dude en comunicarse con nosotros.</p>
       </div>
-      <div className='Cookies-container'>
+      <div className='politics-container'>
         <h2>Política de Cookies</h2>
         <h3>¿Qué son las cookies?</h3>
         <p>Las cookies son pequeños archivos de texto que se almacenan en tu navegador o dispositivo por el sitio web que estás visitando. Las cookies se utilizan para que los sitios web puedan recordar información sobre ti y tus preferencias de navegación, como tus idiomas preferidos, tu historial de navegación y tus preferencias de configuración.</p>

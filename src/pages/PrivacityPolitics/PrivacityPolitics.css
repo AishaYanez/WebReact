@@ -1,4 +1,4 @@
-/* Estilos generales */
+Estilos generales
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
@@ -29,11 +29,14 @@ li {
   margin-bottom: 10px;
 }
 
+.politics-container{
+  margin-bottom: 20vh;
+}
+
 /* Estilos para pantalla pequeña */
 @media (max-width: 600px) {
-  .Privacity-container,
-  .Cookies-container {
-    margin: auto 10px;
+  .politics-container{
+    margin-left:  10px;
   }
 
   h1 {
@@ -55,17 +58,15 @@ li {
 
 /* Estilos para pantalla mediana */
 @media (min-width: 601px) and (max-width: 900px) {
-  .Privacity-container,
-  .Cookies-container {
-    margin: auto 50px;
+  .politics-container {
+    margin: 60px 50px;
   }
 }
 
 /* Estilos para pantalla grande */
-@media (min-width: 901px) {
-  .Privacity-container,
-  .Cookies-container {
+@media (min-width: 900px) {
+  .politics-container {
     width: 60%;
-    margin: auto;
+    margin: 60px auto;
   }
 }

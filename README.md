@@ -3,7 +3,7 @@ This project is a single-page website created using the React framework that sho
 
 Design  
 The design was made with figma if you want to see visit the url
-https://www.figma.com/file/jS9mI8IQAjCc2FBpdaNnYS/Untitled?type=design&node-id=0%3A1&t=15F4a2HR4tgEK3MJ-1
+https://www.figma.com/file/jS9mI8IQAjCc2FBpdaNnYS/Untitled?type=design&node-id=0%3A1&t=15F4a2HR4tgEK3MJ-1  
 ![texto_alternativo](./ReadmeImgs/Movil.png)
 ![texto_alternativo](./ReadmeImgs/Tablet.png)
 ![texto_alternativo](./ReadmeImgs/PC.png)
@@ -30,7 +30,8 @@ React: The framework used to create the website.
 Leaflet: The JavaScript library used for interactive maps.  
 https://leafletjs.com/  
 Ionicons: The icon library used for web applications.  
-https://ionic.io/ionicons  
+https://ionic.io/ionicons
+
 Services Used  
 img: The service that contains a JSON file with the images used on the landing page.  
 hotel: The service that contains a JSON file with information about hotels.
@@ -47,5 +48,5 @@ Author
 This project was created by me, Aisha Yanez de la Guardia. If you have any questions, you can contact me at https://github.com/AishaYanez/WebReact.
 
 Tutorials  
-https://markdown.es/sintaxis-markdown/#:~:text=Para%20realizar%20un%20salto%20de,de%20pulsar%20una%20vez%20intro.
+https://markdown.es/sintaxis-markdown/#:~:text=Para%20realizar%20un%20salto%20de,de%20pulsar%20una%20vez%20intro.  
 https://rpubs.com/Juve_Campos/ImagenesyMultimediaEnRmarkdown

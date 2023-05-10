@@ -1,0 +1,120 @@
+h1 {
+    margin-top: 0;
+}
+
+.contact-container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: justify;
+}
+
+h2 {
+    color: #363636;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.social-networks-container > li > a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #363636;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form input[type="submit"] {
+    background-color: #0077cc;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    transition: background-color 0.2s;
+    width: auto;
+}
+
+form input[type="submit"]:hover {
+    background-color: #005ea6;
+}
+
+.comment-box {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.comment-box h3 {
+    color: #363636;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.comment-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #363636;
+}
+
+.comment-box input[type="text"],
+.comment-box input[type="email"],
+.comment-box textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.comment-box textarea {
+    height: 150px;
+}
+
+.comment-box input[type="submit"] {
+    background-color: #0077cc;
+    border:none;
+    border-radius: 3px;
+    box-shadow: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    transition: background-color 0.2s;
+    width: auto;
+}
+
+.comment-box input[type="submit"]:hover {
+    background-color: #005ea6;
+}

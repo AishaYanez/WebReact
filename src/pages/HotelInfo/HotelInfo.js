@@ -26,13 +26,13 @@ function HotelInfo() {
             <button className='btn-delete-form' type="button">Borrar</button>
             <form className='form-FormComponent' onSubmit={handleSubmit}>
               <label htmlFor='name-hotel-form'>Nombre:</label>
-              <input value={info.name} type='text' id='name-hotel-form' name='name-hotel-form' required />
+              <input defaultValue={info.name} type='text' id='name-hotel-form' name='name-hotel-form' required/>
               <label htmlFor='img-hotel-form'>Imágen:</label>
-              <input value={info.url} type='text' />
-              <label htmlFor='img-hotel-form'>Imágen:</label>
-              <input value={info.latitude} type='text' />
-              <label htmlFor='img-hotel-form'>Imágen:</label>
-              <input value={info.longitude} type='text' />
+              <input defaultValue={info.url} type='text' id='img-hotel-form' name='img-hotel-form' required/>
+              <label htmlFor='img-hotel-form'>Latitude:</label>
+              <input defaultValue={info.latitude} type='text' />
+              <label htmlFor='img-hotel-form'>Longitude:</label>
+              <input defaultValue={info.longitude} type='text' />
               <button className='btn-update-form' type='submit'>Actualizar</button>
             </form>
           </div>

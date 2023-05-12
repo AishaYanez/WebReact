@@ -27,9 +27,11 @@ function Explore() {
 							</div>
 						</div>
 						<div className="map-container">
-								<ShowMap hotel={h}/>
+							<div className="map">
+								<ShowMap hotel={h} />
+							</div>
 						</div>
-					</div>
+					</div >
 				);
 			})
 		);

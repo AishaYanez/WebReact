@@ -30,6 +30,13 @@
     display: flex;
 }
 
+.map {
+    border-radius: 80px / 60px;
+    width: 142px;
+    height: 104px;
+    margin: auto;
+  }
+
 @media screen and (max-width:360px) {
     .map-container {
        display: none;

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Blog de ejemplo</title>
+    <link>http://www.ejemplo.com</link>
+    <description>Un blog de ejemplo</description>
+    <item>
+      <title>Primer artículo</title>
+      <link>http://www.ejemplo.com/articulo1.html</link>
+      <description>Este es el primer artículo de ejemplo</description>
+    </item>
+    <item>
+      <title>Segundo artículo</title>
+      <link>http://www.ejemplo.com/articulo2.html</link>
+      <description>Este es el segundo artículo de ejemplo</description>
+    </item>
+  </channel>
+</rss>

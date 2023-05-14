@@ -1,7 +1,9 @@
 // import React, { useState } from 'react';
-import './Form.css'
+import { useState } from 'react';
+import './FormReserve.css'
 
-function Form() {
+function FormReserve() {
+    const [userDatas, setUserDatas] = useState({});
     // const [name, setName] = useState("");
     // const [lastName, setLastName] = useState("");
     // const [DNI, setDNI] = useState("");
@@ -36,4 +38,4 @@ function Form() {
     );
 }
 
-export default Form;
+export default FormReserve;

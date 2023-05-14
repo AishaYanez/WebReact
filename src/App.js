@@ -9,6 +9,7 @@ import HotelInfo from './pages/HotelInfo/HotelInfo';
 import SalesPolitics from './pages/SalesPolitics/SalesPolitics';
 import PrivacityPolitics from './pages/PrivacityPolitics/PrivacityPolitics';
 import Contact from './pages/Contact/Contact';
+import FormAdmin from './pages/FormAdmin/FormAdmin';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/explore' element={<Explore/>} />
           <Route path='/explore/:id' element={<HotelInfo/>} />
           <Route path='/contact' element={<Contact/>} />
+          <Route path='/admin' element={<FormAdmin/>} />
           <Route path='/privacity-politics' element={<PrivacityPolitics/>} />
           <Route path='/sales-politics' element={<SalesPolitics/>} />
         </Routes>

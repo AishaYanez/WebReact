@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Blog de ejemplo</title>
-    <link>http://www.ejemplo.com</link>
-    <description>Un blog de ejemplo</description>
+    <title>Noticias varias</title>
+    <link>http://www.noticias.com</link>
+    <description>Noticias varias: Descuentos, novedades y demás</description>
     <item>
-      <title>Primer artículo</title>
-      <link>http://www.ejemplo.com/articulo1.html</link>
-      <description>Este es el primer artículo de ejemplo</description>
+      <title>Nuevos destinos</title>
+      <link>http://www.noticias.com/Noticia1.html</link>
+      <description>Aumento de los lugares que tenemos a tu disposición</description>
     </item>
     <item>
-      <title>Segundo artículo</title>
-      <link>http://www.ejemplo.com/articulo2.html</link>
-      <description>Este es el segundo artículo de ejemplo</description>
+      <title>Descuento de fin de temporada</title>
+      <link>http://www.noticias.com/Noticia2.html</link>
+      <description>Aprovecha la bajada de septiembre</description>
+    </item>
+    <item>
+      <title>Descuento especial</title>
+      <link>http://www.noticias.com/Noticia3.html</link>
+      <description>Para aquellos clientes cuyo número de asociado acabe en XXX, tenemos una oferta
+        especial</description>
     </item>
   </channel>
 </rss>

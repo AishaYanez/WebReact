@@ -1,9 +1,9 @@
-import Form from "../../components/Form/Form";
+import FormReserve from "../../components/FormReserve/FormReserve";
 
 function Reserve() {
   return (
     <>
-        <Form/>
+        <FormReserve/>
     </>
   );
 }

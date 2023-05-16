@@ -6,7 +6,7 @@ function HotelInfo() {
   const [hotel, setHotel] = useState({});
   const params = useParams();
 
-  const getHotels = () => {
+  const getHotel = () => {
     HotelService.getHotel(params.id)
       .then((item) => {
         let hotelSelect = {};
@@ -75,7 +75,7 @@ function HotelInfo() {
   }
 
   useEffect(() => {
-    getHotels();
+    getHotel();
   }, []);
 
   return (

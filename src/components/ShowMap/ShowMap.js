@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup} from 'react-leaflet';
 import './ShowMap.css'
 function ShowMap(props) {
   const h = props.hotel;

@@ -1,9 +1,8 @@
 // import React, { useState } from 'react';
-import { useState } from 'react';
 import './FormReserve.css'
 
 function FormReserve() {
-    const [userDatas, setUserDatas] = useState({});
+    // const [userDatas, setUserDatas] = useState({});
     // const [name, setName] = useState("");
     // const [lastName, setLastName] = useState("");
     // const [DNI, setDNI] = useState("");

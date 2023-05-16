@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+    <atom:link href="https://webreact-920d3.web.app//assets/RSS/RSS.xml" rel="setf" type="aplication/rss+xml" />
     <title>Noticias varias</title>
-    <link>http://www.noticias.com</link>
+    <link>https://webreact-920d3.web.app/assets/RSS/RSS.xml</link>
     <description>Noticias varias: Descuentos, novedades y demás</description>
+    <language>es-Es</language>
     <item>
       <title>Nuevos destinos</title>
       <link>http://www.noticias.com/Noticia1.html</link>
@@ -17,8 +19,8 @@
     <item>
       <title>Descuento especial</title>
       <link>http://www.noticias.com/Noticia3.html</link>
-      <description>Para aquellos clientes cuyo número de asociado acabe en XXX, tenemos una oferta
-        especial</description>
+      <description>
+      Para aquellos clientes cuyo número de asociado acabe en XXX, tenemos una oferta especial</description>
     </item>
   </channel>
 </rss>

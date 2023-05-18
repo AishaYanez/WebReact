@@ -1,3 +1,11 @@
-.hotels-list-container{
-    width: 250px;
+.hotels-lits-container{
+    min-width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#hotels-list {
+    background-color: rgb(255, 254, 254);
+    border-radius: 5px;
+    margin: auto;
 }

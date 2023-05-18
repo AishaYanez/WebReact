@@ -5,7 +5,9 @@ import './FormAdmin.css';
 function FormAdmin() {
   const [hotels, setHotels] = useState([]);
   const [hotel, setHotel] = useState({});
-  const [formState, setFormState] = useState("INSERT");
+  const [formState, setFormState] = useState("Insertar");
+  //Copia de los datos de hotel que puedo modificar y que todavia sean accesibles desde el value
+  const [formData, setFormData] = useState({});
 
   //  FUNCION QUE PIDE LA KEY, EL ID Y EL
   //  NOMBRE DE TODOS LOS HOTELES
@@ -61,7 +63,7 @@ function FormAdmin() {
       })
   }
 
-  const updateHotel = (updates, key) => {
+  const updateHotel = (key, updates) => {
     HotelService.updateHotel(key, updates)
       .then(() => {
         console.log("Updated SUCCESSFULLY");
@@ -82,22 +84,21 @@ function FormAdmin() {
       longitude: evt.target.elements['longitude-hotel-form'].value
     }
 
-    if (formState === "INSERT") {
-      addHotel(newDatas, evt.target.value);
-    } else if (formState === "UPDATE") {
-      updateHotel(newDatas);
+    if (formState === "Insertar") {
+      addHotel(newDatas);
+    } else if (formState === "Actualizar") {
+      updateHotel(hotel.key, newDatas);
     }
   };
 
-  const formStateChange = (evt) => {
+  const handleHotelSelect = (evt) => {
     //cambia el estado del formulario
     //si no hay hoteles selecionados es INSERT, sino es UPDATE
     if (evt.target.value != "None") {
-      setFormState("UPDATE");
+      setFormState("Actualizar");
       getHotel(evt.target.value);
     } else {
-      setFormState("INSERT");
-      
+      setFormState("Insertar");
     }
   }
 
@@ -105,7 +106,7 @@ function FormAdmin() {
     return (
       <>
         <div className="hotels-lits-container">
-          <select name="hotels-list" id="hotels-list" onChange={formStateChange}>
+          <select name="hotels-list" id="hotels-list" onChange={handleHotelSelect}>
             <option value="None"></option>
             {hotels.map(h => {
               return (
@@ -127,13 +128,13 @@ function FormAdmin() {
       {showHotel()}
       <form className='form-FormComponent' onSubmit={handleSubmit}>
         <label htmlFor='name-hotel-form'>Nombre:</label>
-        <input defaultValue={hotel.name} type='text' id='name-hotel-form' name='name-hotel-form' required />
+        <input value={hotel.name || ''} type='text' id='name-hotel-form' name='name-hotel-form' required />
         <label htmlFor='img-hotel-form'>Imágen:</label>
-        <input defaultValue={hotel.url} type='text' id='img-hotel-form' name='img-hotel-form' required />
+        <input value={hotel.url  || ''} type='text' id='img-hotel-form' name='img-hotel-form' required />
         <label htmlFor='latidude-hotel-form'>Latitude:</label>
-        <input defaultValue={hotel.latitude} type='text' name="latitude-hotel-form" required />
+        <input value={hotel.latitude || ''} type='text' pattern='^(-?([1-8]?\d(\.\d+)?|90(\.0+)?))$' name="latitude-hotel-form" required />
         <label htmlFor='-hotel-form'>Longitude:</label>
-        <input defaultValue={hotel.longitude} type='text' name="longitude-hotel-form" required />
+        <input value={hotel.longitude || ''} type='text' pattern='^(-?(1[0-7]|[1-9])?\d(\.\d+)?|180(\.0+)?)$' name="longitude-hotel-form" required />
         <div className='btn-container'>
           <button className='btn-update-form btn-form' type='submit'>{formState}</button>
         </div>

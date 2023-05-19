@@ -1,7 +1,8 @@
 import HotelService from "../../services/hotel.service";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import ShowMap from "../../components/ShowMap/ShowMap";
+import ShowMap from '../../components/ShowMap/ShowMap';
+import './HotelInfo.css';
 
 function HotelInfo() {
   const [hotel, setHotel] = useState({});
@@ -26,7 +27,7 @@ function HotelInfo() {
         console.error(err);
       });
   }
-  
+
   useEffect(() => {
     console.log("cargado")
     getHotel();
@@ -34,16 +35,18 @@ function HotelInfo() {
 
   const showHotelInfo = () => {
     return (
-      <div >
-        <h2>{hotel.name}</h2>
-								<ShowMap hotel={hotel} />
-        <p>{hotel.latitude}</p>
+      <div className="map-container-hotelInfo">
+        {hotel.latitude && <ShowMap hotel={hotel} />}
       </div>
     );
   }
-
+  
   return (
     <>
+    <div className="information-container">
+      <h1>{hotel.name}</h1>
+      <img src={`/assets/img/${hotel.url}`}/>
+    </div>
       {showHotelInfo()}
     </>
   );

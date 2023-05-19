@@ -1,18 +1,15 @@
-.map-container {
-    width: 150px;
-    height: 110px;
-    background-color: #fb8500;
-    z-index: 100;
-    position: absolute;
-    border-radius: 80px / 60px;
-    transform: rotate(5deg);
-    bottom: 0;
-    display: flex;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.map {
-    border-radius: 80px / 60px;
-    width: 142px;
-    height: 104px;
+.map-container-hotelInfo{
+    height: 55vh;
+    width: 80vh;
+    margin: 30px auto;
+}
+
+.information-container {
+    width: 90vw;
     margin: auto;
-  }
+}

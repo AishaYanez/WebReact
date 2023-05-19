@@ -4,9 +4,9 @@ This project is a single-page website created using the React framework that sho
 Design  
 The design was made with figma if you want to see visit the url
 https://www.figma.com/file/jS9mI8IQAjCc2FBpdaNnYS/Untitled?type=design&node-id=0%3A1&t=15F4a2HR4tgEK3MJ-1  
-![texto_alternativo](./ReadmeImgs/Movil.png)
-![texto_alternativo](./ReadmeImgs/Tablet.png)
-![texto_alternativo](./ReadmeImgs/PC.png)
+![texto_alternativo](./public/assets/ReadmeImgs/Movil.png)  
+![texto_alternativo](./public/assets/ReadmeImgs/Tablet.png)
+![texto_alternativo](./public/assets/ReadmeImgs/PC.png)
 
 Available Pages  
 The website features four different pages:  

@@ -41,7 +41,7 @@
       flex-direction: column;
     }
   
-    .links-politics-container, .icons-container {
+    .links-politics-container > p, .icons-container {
       flex: none;
       width: 100%;
       text-align: center;

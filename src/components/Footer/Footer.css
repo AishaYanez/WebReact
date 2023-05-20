@@ -1,55 +1,72 @@
 .footer-container {
-    background-color: #023047;
-    color: #fff;
-    display: flex;
-    flex-wrap: wrap;
+  background-color: #023047;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-container>* {
+  margin: 10px 0;
+}
+
+.copyright-container {
+  text-align: center;
+}
+
+.politics-privaticy,
+.project-link {
+  color: #fb8500;
+}
+
+.politics-privaticy:hover,
+.project-link:hover {
+  color: #ffb703;
+}
+
+.icons-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.icons-container ion-icon {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-container {
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
   }
-    .footer-container > * {
-        margin: 10px 0;
-    }
 
-    .copyright-container{
-      text-align: center;
-    }
-
-    .politics-privaticy, .project-link{
-        color: #fb8500;
-    }
-
-    .politics-privaticy:hover, .project-link:hover{
-        color: #ffb703;
-    }
-  
+  .links-politics-container>p,
   .icons-container {
-    margin-top: 10px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    flex: none;
+    width: 100%;
+    text-align: center;
   }
-  
+
   .icons-container ion-icon {
-    font-size: 30px;
-    margin-left: 10px;
+    margin-left: 0;
+    margin-right: 10px;
   }
-  
-  @media screen and (max-width: 600px) {
-    .footer-container {
-      flex-direction: column;
-    }
-  
-    .links-politics-container > p, .icons-container {
-      flex: none;
-      width: 100%;
-      text-align: center;
-    }
-  
-    .icons-container ion-icon {
-      margin-left: 0;
-      margin-right: 10px;
-    }
+}
+
+@media screen and (max-width:500px) {
+  .footer-container {
+    transition: transform 0.3s ease;
   }
-  
+
+  .footer-container.show {
+    transform: translateY(-200px);
+  }
+
+  .footer-container.hidden {
+    transform: translateY(0);
+  }
+}

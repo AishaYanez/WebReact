@@ -17,8 +17,8 @@ function ImgList() {
 		return (
 			imgs.filter(img => img.id === counter).map(img => {
 				return (
-					<div className="imgList-container" >
-						<img className="imgs-imgList" src={`/assets/img/${img.url}`}/>
+					<div key={img.id} className="imgList-container" >
+						<img alt="Imagen del home" className="imgs-imgList" src={`/assets/img/${img.url}`}/>
 						<a href={img.page} className="btn">{img.name}</a>
 					</div>
 				);

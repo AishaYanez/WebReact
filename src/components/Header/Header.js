@@ -1,4 +1,3 @@
-import Navbar from '../Navbar/Navbar';
 import './Header.css';
 import logo from './img/logo.png'
 
@@ -11,7 +10,6 @@ function Header() {
                         <img src={logo} alt="Logo, dibujo de un avión" />
                     </div>
                 </div>
-                <Navbar />
             </header>
         </>
     );

@@ -1,5 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@media screen and (max-width:500px) {
+#main-container {
+    transition: transform 0.3s ease;
+  }
+
+	#main-container.show {
+		transform: translateY(-200px);
+	}
+	
+	#main-container.hidden {
+		transform: translateY(0);
+	}
 }

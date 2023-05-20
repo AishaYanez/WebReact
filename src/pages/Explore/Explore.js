@@ -34,7 +34,7 @@ function Explore() {
 		return (
 			hotels.map(h => {
 				return (
-					<div className="hotels-information-container" key={h.key}>
+					<div className="hotels-information-container main-container" key={h.key}>
 						<div style={{
 							background: `url(/assets/img/${h.url})`,
 							backgroundSize: "cover"

@@ -1,9 +1,9 @@
 import './Footer.css';
 
-function Footer() {
+function Footer({navState}) {
 	return (
 		<>
-			<footer className="footer-container">
+			<footer className={`footer-container ${navState}`}>
 				<div className="copyright-container">
 					<p>© 2023 Travels Todos los derechos reservados</p>
 				</div>

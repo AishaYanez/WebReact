@@ -139,7 +139,8 @@ function FormAdmin() {
       latitude: evt.target.parentNode.elements['latitude-hotel-form'].value,
       longitude: evt.target.parentNode.elements['longitude-hotel-form'].value,
     }
-    setHotel(newData)
+    setHotel(newData);
+    console.log(hotel)
   }
 
   useEffect(() => {

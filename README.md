@@ -33,7 +33,7 @@ The pages are composed of different components, including:
 The project utilizes the following technologies:  
 React: The framework used to create the website.  
 * Leaflet: The JavaScript library used for interactive maps.  
-https://leafletjs.com/  
+https://leafletjs.com/
 * Ionicons: The icon library used for web applications.  
 https://ionic.io/ionicons
 

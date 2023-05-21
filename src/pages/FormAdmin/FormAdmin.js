@@ -13,6 +13,7 @@ function FormAdmin() {
   });
   const [formState, setFormState] = useState("Insertar");
 
+
   //  FUNCION QUE PIDE LA KEY, EL ID Y EL
   //  NOMBRE DE TODOS LOS HOTELES
   const getAllHotels = () => {
@@ -114,7 +115,7 @@ function FormAdmin() {
   const handleHotelSelect = (evt) => {
     //cambia el estado del formulario
     //si no hay hoteles selecionados es INSERT, sino es UPDATE
-    if (evt.target.value !== "None") {
+    if (evt.target.value !== "None"){
       setFormState("Actualizar");
       getHotel(evt.target.value);
     } else {
@@ -145,7 +146,7 @@ function FormAdmin() {
       </>
     );
   }
-
+  
   const handleChange = (evt) => {
     const newData = {
       key:hotel.key,

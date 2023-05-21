@@ -56,17 +56,3 @@
     margin-right: 10px;
   }
 }
-
-/* @media screen and (max-width:500px) {
-  .footer-container {
-    transition: transform 0.3s ease;
-  }
-
-  .footer-container.show {
-    transform: translateY(-200px);
-  }
-
-  .footer-container.hidden {
-    transform: translateY(0);
-  }
-} */

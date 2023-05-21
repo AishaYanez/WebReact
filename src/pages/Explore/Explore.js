@@ -6,6 +6,7 @@ import './Explore.css'
 function Explore() {
 	const [hotels, setHotels] = useState([]);
 
+
 	const getAllHotels = () => {
 		HotelService.getAllHotels()
 		.then((items) => {

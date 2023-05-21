@@ -6,8 +6,6 @@ import './Explore.css'
 function Explore() {
 	const [hotels, setHotels] = useState([]);
 
-	// BUSCADOR
-	// const [query, setQuery] = useState("");
 	const getAllHotels = () => {
 		HotelService.getAllHotels()
 		.then((items) => {

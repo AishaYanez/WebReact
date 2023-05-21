@@ -74,8 +74,23 @@ function FormAdmin() {
         getAllHotels();
       })
       .catch((err) => {
-        console.log("Errot updating: ", err);
+        console.log("Error updating: ", err);
       })
+  }
+
+//   const removeHotel = (key) => {
+//     const dbRefHotel = ref(db, `/hotels/${key}`);
+//     return remove(dbRefHotel);
+// };
+  const removeHotel = () => {
+    HotelService.removeHotel(hotel.key)
+    .then(()=> {
+      console.log("Delete SUCCESSFULLY");
+      getAllHotels();
+    })
+    .catch((err) => {
+      console.log("Error deleting: ", err);
+    })
   }
 
   const handleSubmit = (evt) => {
@@ -84,7 +99,7 @@ function FormAdmin() {
     evt.preventDefault();
     const newDatas = {
       name: evt.target.elements['name-hotel-form'].value,
-      url: evt.target.elements['img-hotel-form'].value,
+      url: evt.target.elements['url-hotel-form'].value,
       latitude: evt.target.elements['latitude-hotel-form'].value,
       longitude: evt.target.elements['longitude-hotel-form'].value
     }
@@ -140,7 +155,6 @@ function FormAdmin() {
       longitude: evt.target.parentNode.elements['longitude-hotel-form'].value,
     }
     setHotel(newData);
-    console.log(hotel)
   }
 
   useEffect(() => {
@@ -161,6 +175,7 @@ function FormAdmin() {
         <input value={hotel.longitude} onChange={handleChange} type='text' id='longitude-hotel-form' pattern='^(-?(1[0-7]|[1-9])?\d(\.\d+)?|180(\.0+)?)$' name="longitude-hotel-form" required />
         <div className='btn-container'>
           <button className='btn-update-form btn-form' type='submit'>{formState}</button>
+          {hotel.key && <button onClick={removeHotel} type='button' className='btn-delete-form btn-form' >Borrar</button>}
         </div>
       </form>
     </>

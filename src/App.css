@@ -1,13 +1,11 @@
-@media screen and (max-width:500px) {
-#main-container {
-    transition: transform 0.3s ease;
-  }
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
+@media screen and (max-width:500px) {
 	#main-container.show {
-		transform: translateY(-200px);
-	}
-	
-	#main-container.hidden {
-		transform: translateY(0);
+		margin-top: 80px;
 	}
 }

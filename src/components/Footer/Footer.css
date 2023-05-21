@@ -57,7 +57,7 @@
   }
 }
 
-@media screen and (max-width:500px) {
+/* @media screen and (max-width:500px) {
   .footer-container {
     transition: transform 0.3s ease;
   }
@@ -69,4 +69,4 @@
   .footer-container.hidden {
     transform: translateY(0);
   }
-}
+} */

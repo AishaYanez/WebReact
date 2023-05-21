@@ -20,6 +20,7 @@ function Navbar({changeNavState}) {
                     <li><a href="/Explore">Explorar</a></li>
                     <li><a href="/Contact">Contacto</a></li>
                     <li><a href="/Admin">Añadir hotel</a></li>
+                    <li><a href="/News">News</a></li>
                     <li><a href="/assets/RSS/RSS.xml" target="_blank" rel="noopener noreferer"><img className='img-rss' src={RSS} alt='Imagen RSS' /></a></li>
                 </ul>
                     <div className='btn-nav' onClick={movNav}><img alt="Boton para mostrar menu" src={btnNav} className={navState} /></div>

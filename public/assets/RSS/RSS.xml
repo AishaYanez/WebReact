@@ -3,24 +3,41 @@
   <channel>
     <atom:link href="https://webreact-920d3.web.app//assets/RSS/RSS.xml" rel="setf" type="aplication/rss+xml" />
     <title>Noticias varias</title>
-    <link>https://webreact-920d3.web.app/assets/RSS/RSS.xml</link>
-    <description>Noticias varias: Descuentos, novedades y demás</description>
+    <description>Descuentos, novedades y demás</description>
     <language>es-Es</language>
+
     <item>
       <title>Nuevos destinos</title>
-      <link>http://www.noticias.com/Noticia1.html</link>
+      <link>https://webreact-920d3.web.app/News/new-1</link>
       <description>Aumento de los lugares que tenemos a tu disposición</description>
     </item>
+
     <item>
       <title>Descuento de fin de temporada</title>
-      <link>http://www.noticias.com/Noticia2.html</link>
+      <link>https://webreact-920d3.web.app/News/new-2</link>
       <description>Aprovecha la bajada de septiembre</description>
     </item>
+
     <item>
       <title>Descuento especial</title>
-      <link>http://www.noticias.com/Noticia3.html</link>
+      <link>https://webreact-920d3.web.app/News/new-3</link>
       <description>
       Para aquellos clientes cuyo número de asociado acabe en XXX, tenemos una oferta especial</description>
     </item>
+
+  </channel>
+
+  <channel>
+    <atom:link href="https://webreact-920d3.web.app//assets/RSS/RSS.xml/novedades" rel="setf" type="aplication/rss+xml" />
+    <title>Noticias varias</title>
+    <description>Novedades</description>
+    <language>es-Es</language>
+
+    <item>
+      <title>Nuevos destinos</title>
+      <link>https://webreact-920d3.web.app/News/new-1</link>
+      <description>Aumento de los lugares que tenemos a tu disposición</description>
+    </item>
+
   </channel>
 </rss>

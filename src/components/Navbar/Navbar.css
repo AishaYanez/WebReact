@@ -36,6 +36,7 @@ a:hover {
 		height: auto;
 		transition: transform 0.3s ease;
 		flex: 1;
+		width: 100vw;
 	}
 
 	.nav-bar {
@@ -43,7 +44,8 @@ a:hover {
 		transition: transform 0.3s ease;
 	}
 	.nav-container.show {
-		transform: translateY(-85%);
+		transform: translateY(-80%);
+		position: absolute;
 	}
 	
 	.nav-container.hidden {
@@ -81,7 +83,7 @@ a:hover {
 }
 
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:501px) {
 	.btn-nav {
 		display: none;
 	}

@@ -14,11 +14,11 @@ The website features four different pages:
 * Explore: The page that displays different vacation destinations and detailed information about each one. It accesses the hotel service, which contains a JSON file with information about hotels.
 Reserve: The form used to book flights.  
 * HotelInfo: The page that will contain information about the selected hotel.
-* Reserve: 
-* Contact: 
-* FormAdmin: 
-* PrivacityPolitics: 
-* SalesPolitics: 
+* Reserve: This page containt the form,
+* Contact: You can find our contact information on this page.
+* FormAdmin: This is the administrator's page, where hotels can be added, edited, and deleted.
+* PrivacityPolitics: This page contains the privacy policy.
+* SalesPolitics: This page contains the sales policy.
 
 ## Components  
 The pages are composed of different components, including:  
@@ -43,19 +43,37 @@ https://ionic.io/ionicons
 
 ## Running the Project  
 To run the project on your computer, follow these steps:  
-Clone the repository on your computer using the command
+
+### Clone the repository on your computer using the command
 ```sh
 git clone https://github.com/AishaYanez/WebReact.git.  
 ```
-Access the project directory using the command cd repository-name in this case WebReact.  
-Install the project dependencies using the command npm install.
-Run the project in development mode using the command npm start.
+### Access the project directory using the command
+
+```sh
+cd WebReact.
+```
+### Install the project dependencies using the command
+```sh
+npm install.
+```
+### Run the project in development mode using the command
+```sh
+npm start.
+```
 The website will be available in your browser at http://localhost:3000.
+
+### Project in firebase
+https://webreact-920d3.web.app/
 
 ## Author  
 This project was created by me, Aisha Yanez de la Guardia. If you have any questions, you can contact me at https://github.com/AishaYanez/WebReact.
 
-## Tutorials  
-https://markdown.es/sintaxis-markdown/#:~:text=Para%20realizar%20un%20salto%20de,de%20pulsar%20una%20vez%20intro.  
-https://rpubs.com/Juve_Campos/ImagenesyMultimediaEnRmarkdown
-https://keepcoding.io/blog/hook-useparams-de-react-router/#:~:text=De%20manera%20particular%2C%20el%20hook,par%C3%A1metros%20din%C3%A1micos%20de%20la%20URL.
+## Resources
+### Readme Template
+* https://github.com/othneildrew/Best-README-Template/blob/master/README.md?plain=1
+
+### Tutorials  
+* https://markdown.es/sintaxis-markdown/#:~:text=Para%20realizar%20un%20salto%20de,de%20pulsar%20una%20vez%20intro.  
+* https://rpubs.com/Juve_Campos/ImagenesyMultimediaEnRmarkdown
+* https://keepcoding.io/blog/hook-useparams-de-react-router/#:~:text=De%20manera%20particular%2C%20el%20hook,par%C3%A1metros%20din%C3%A1micos%20de%20la%20URL.

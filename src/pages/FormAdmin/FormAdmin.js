@@ -79,15 +79,19 @@ function FormAdmin() {
       })
   }
 
-//   const removeHotel = (key) => {
-//     const dbRefHotel = ref(db, `/hotels/${key}`);
-//     return remove(dbRefHotel);
-// };
   const removeHotel = () => {
     HotelService.removeHotel(hotel.key)
     .then(()=> {
       console.log("Delete SUCCESSFULLY");
       getAllHotels();
+      setFormState("Insertar");
+      setHotel({
+        key:'',
+        name:'',
+        url:'',
+        latitude:'',
+        longitude:''
+      });
     })
     .catch((err) => {
       console.log("Error deleting: ", err);

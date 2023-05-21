@@ -29,11 +29,10 @@ function HotelInfo() {
   }
 
   useEffect(() => {
-    console.log("cargado")
     getHotel();
-  }, []);
+  });
 
-  const showHotelInfo = () => {
+  const showMapHotel = () => {
     return (
       <div className="map-container-hotelInfo">
         {hotel.latitude && <ShowMap hotel={hotel} />}
@@ -45,9 +44,10 @@ function HotelInfo() {
     <>
     <div className="information-container">
       <h1>{hotel.name}</h1>
-      <img src={`/assets/img/${hotel.url}`}/>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      <img alt="Imagen de hotel" src={`/assets/img/${hotel.url}`}/>
     </div>
-      {showHotelInfo()}
+      {showMapHotel()}
     </>
   );
 

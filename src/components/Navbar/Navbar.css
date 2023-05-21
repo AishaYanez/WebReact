@@ -36,7 +36,7 @@ a:hover {
 		height: auto;
 		transition: transform 0.3s ease;
 		flex: 1;
-		width: 100vw;
+		width: 100%;
 	}
 
 	.nav-bar {

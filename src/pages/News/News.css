@@ -1,3 +1,48 @@
-.news-container {
-    margin: 4vw;
-}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .news-container {
+    width: 40vw;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:0px;
+  }
+
+  .news-container > div > p:not(:has(a)) {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .news-container {
+      padding: 10px;
+      width: 70vw;
+    }
+  }
+  

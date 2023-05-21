@@ -1,15 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.map-container-hotelInfo{
+.map-container-hotelInfo {
     height: 55vh;
-    width: 80vh;
+    width: 80vw;
     margin: 30px auto;
+    overflow: hidden;
 }
 
 .information-container {
     width: 90vw;
     margin: auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .information-container {
+        width: 70vw;
+    }
+}
+
+.information-container h1 {
+    margin-bottom: 10px;
+}
+
+.information-container img {
+    max-width: 100%;
+    height: auto;
 }
